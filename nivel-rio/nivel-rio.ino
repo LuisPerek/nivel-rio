@@ -66,7 +66,7 @@ void loop() {
   html += "<title>HC-SR04 ESP32</title></head>";
   html += "<body style='font-family:Arial; text-align:center;'>";
   html += "<h1>Calculo de Distancia do Nivel do Rio</h1>";
-  html += "<h2>Distancia da agua ate a margem:  <span class='distancia'>" + String(margem, 1) + "</span> cm</h2>";
+  html += "<h2>Distancia da agua ate a margem:  <span id='distancia'>" + String(margem, 1) + "</span> cm</h2>";
   html += "<p>(Atualiza a cada 1 segundo)</p>";
   html += "</body></html>";
 
